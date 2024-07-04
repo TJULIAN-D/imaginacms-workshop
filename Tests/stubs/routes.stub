@@ -4,6 +4,6 @@ use Illuminate\Routing\Router;
 /** @var Router $router */
 // overwritten by custom config
 
-Route::group(['prefix' =>'/$LOWERCASE_MODULE$'], function (Router $router) {
+Route::prefix('/$LOWERCASE_MODULE$')->group(function (Router $router) {
 // append
 });
