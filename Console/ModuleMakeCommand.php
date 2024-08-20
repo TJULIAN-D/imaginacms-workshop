@@ -3,8 +3,8 @@
 namespace Modules\Workshop\Console;
 
 use Illuminate\Support\Facades\File;
-use Livewire\Features\SupportConsoleCommands\Commands\ComponentParser;
-use Livewire\Features\SupportConsoleCommands\Commands\FileManipulationCommand;
+use Livewire\Commands\ComponentParser;
+use Livewire\Commands\FileManipulationCommand;
 
 class ModuleMakeCommand extends FileManipulationCommand
 {
